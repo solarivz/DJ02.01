@@ -2,8 +2,9 @@
 
 {% block title %}
     <title>Первая страница на django</title>
-{% endblock %}
+{% endblack %}
 
-{% block content%}
+{% block content %}
+    {% include 'main/nav.html'%}
     <h1>Урок номер 2 по изучению фреймворка django</h1>
 {% endblock %}
